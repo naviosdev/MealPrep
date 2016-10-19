@@ -16,27 +16,27 @@
 		A50251A51D7DE70800176ADB /* prepDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A50251A41D7DE70800176ADB /* prepDateTableViewCell.m */; };
 		A50251A91D7E07EC00176ADB /* dateCellDownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A50251A81D7E07EC00176ADB /* dateCellDownArrow.png */; };
 		A5734E1E1DAF0E770020EE87 /* noMealsSegProgressViewnew.png in Resources */ = {isa = PBXBuildFile; fileRef = A5734E1D1DAF0E770020EE87 /* noMealsSegProgressViewnew.png */; };
+		A5734E4F1DB776950020EE87 /* Aldrich-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E401DB776950020EE87 /* Aldrich-Regular.ttf */; };
+		A5734E501DB776950020EE87 /* Aleo-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E411DB776950020EE87 /* Aleo-Regular.otf */; };
+		A5734E511DB776950020EE87 /* AlexandriaFLF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E421DB776950020EE87 /* AlexandriaFLF.ttf */; };
+		A5734E521DB776950020EE87 /* American Purpose.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E431DB776950020EE87 /* American Purpose.ttf */; };
+		A5734E531DB776950020EE87 /* BEBAS___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A5734E441DB776950020EE87 /* BEBAS___.TTF */; };
+		A5734E541DB776950020EE87 /* built titling el.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E451DB776950020EE87 /* built titling el.ttf */; };
+		A5734E551DB776950020EE87 /* built titling sb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E461DB776950020EE87 /* built titling sb.ttf */; };
+		A5734E561DB776950020EE87 /* BurgerJoint.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E471DB776950020EE87 /* BurgerJoint.ttf */; };
+		A5734E571DB776950020EE87 /* FeaturedItem.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E481DB776950020EE87 /* FeaturedItem.ttf */; };
+		A5734E581DB776950020EE87 /* Generica.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E491DB776950020EE87 /* Generica.otf */; };
+		A5734E591DB776950020EE87 /* NEOTERIC∏ - Regular DEMO VERSION.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E4A1DB776950020EE87 /* NEOTERIC∏ - Regular DEMO VERSION.ttf */; };
+		A5734E5A1DB776950020EE87 /* Oswaldesque Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E4B1DB776950020EE87 /* Oswaldesque Bold.ttf */; };
+		A5734E5B1DB776950020EE87 /* Oswaldesque Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E4C1DB776950020EE87 /* Oswaldesque Light.ttf */; };
+		A5734E5C1DB776950020EE87 /* Oswaldesque Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E4D1DB776950020EE87 /* Oswaldesque Regular.ttf */; };
+		A5734E5D1DB776950020EE87 /* TT Corals Thin-DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E4E1DB776950020EE87 /* TT Corals Thin-DEMO.otf */; };
 		A5763B791D441EAA0077C6B8 /* navbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A5763B781D441EAA0077C6B8 /* navbar_bg.png */; };
 		A5763B7F1D44311D0077C6B8 /* MealPlannerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5763B7E1D44311D0077C6B8 /* MealPlannerTableViewCell.m */; };
 		A5763B821D4FB0AF0077C6B8 /* mealCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5763B811D4FB0AF0077C6B8 /* mealCollectionViewCell.m */; };
 		A5763B841D5F60190077C6B8 /* fade-tp.png in Resources */ = {isa = PBXBuildFile; fileRef = A5763B831D5F60190077C6B8 /* fade-tp.png */; };
 		A5763B861D5F61110077C6B8 /* fade-tp1.png in Resources */ = {isa = PBXBuildFile; fileRef = A5763B851D5F61110077C6B8 /* fade-tp1.png */; };
 		A5A6C7501D9C1C7800E8094C /* noMealsSegProgressView.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C74F1D9C1C7800E8094C /* noMealsSegProgressView.png */; };
-		A5A6C7521D9C604B00E8094C /* FeaturedItem.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C7511D9C604A00E8094C /* FeaturedItem.ttf */; };
-		A5A6C7541D9D7F5400E8094C /* Aldrich-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C7531D9D7F5400E8094C /* Aldrich-Regular.ttf */; };
-		A5A6C7561D9D7F8A00E8094C /* BurgerJoint.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C7551D9D7F8A00E8094C /* BurgerJoint.ttf */; };
-		A5A6C7581D9D831A00E8094C /* built titling sb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C7571D9D831A00E8094C /* built titling sb.ttf */; };
-		A5A6C75A1D9D833900E8094C /* NEOTERIC∏ - Regular DEMO VERSION.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C7591D9D833900E8094C /* NEOTERIC∏ - Regular DEMO VERSION.ttf */; };
-		A5A6C75C1D9D835100E8094C /* BEBAS___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C75B1D9D835100E8094C /* BEBAS___.TTF */; };
-		A5A6C75E1D9D836900E8094C /* built titling el.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C75D1D9D836900E8094C /* built titling el.ttf */; };
-		A5A6C7601D9D889800E8094C /* Generica.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C75F1D9D889800E8094C /* Generica.otf */; };
-		A5A6C7621D9D88B200E8094C /* TT Corals Thin-DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C7611D9D88B200E8094C /* TT Corals Thin-DEMO.otf */; };
-		A5A6C7671D9D890300E8094C /* Oswaldesque Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C7631D9D890300E8094C /* Oswaldesque Regular.ttf */; };
-		A5A6C7681D9D890300E8094C /* AlexandriaFLF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C7641D9D890300E8094C /* AlexandriaFLF.ttf */; };
-		A5A6C7691D9D890300E8094C /* Aleo-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C7651D9D890300E8094C /* Aleo-Regular.otf */; };
-		A5A6C76A1D9D890300E8094C /* American Purpose.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C7661D9D890300E8094C /* American Purpose.ttf */; };
-		A5A6C76D1D9D8B2600E8094C /* Oswaldesque Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C76B1D9D8B2600E8094C /* Oswaldesque Bold.ttf */; };
-		A5A6C76E1D9D8B2600E8094C /* Oswaldesque Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C76C1D9D8B2600E8094C /* Oswaldesque Light.ttf */; };
 		A5A6C83F1DA2D27900E8094C /* MealImages+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A6C8281DA2D27900E8094C /* MealImages+CoreDataProperties.m */; };
 		A5A6C8401DA2D27900E8094C /* MealImages.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A6C82A1DA2D27900E8094C /* MealImages.m */; };
 		A5A6C8411DA2D27900E8094C /* MealPrep+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A6C82C1DA2D27900E8094C /* MealPrep+CoreDataProperties.m */; };
@@ -154,6 +154,21 @@
 		A50251A41D7DE70800176ADB /* prepDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = prepDateTableViewCell.m; sourceTree = "<group>"; };
 		A50251A81D7E07EC00176ADB /* dateCellDownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dateCellDownArrow.png; sourceTree = "<group>"; };
 		A5734E1D1DAF0E770020EE87 /* noMealsSegProgressViewnew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noMealsSegProgressViewnew.png; sourceTree = "<group>"; };
+		A5734E401DB776950020EE87 /* Aldrich-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aldrich-Regular.ttf"; path = "Added Font/Aldrich-Regular.ttf"; sourceTree = "<group>"; };
+		A5734E411DB776950020EE87 /* Aleo-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-Regular.otf"; path = "Added Font/Aleo-Regular.otf"; sourceTree = "<group>"; };
+		A5734E421DB776950020EE87 /* AlexandriaFLF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AlexandriaFLF.ttf; path = "Added Font/AlexandriaFLF.ttf"; sourceTree = "<group>"; };
+		A5734E431DB776950020EE87 /* American Purpose.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "American Purpose.ttf"; path = "Added Font/American Purpose.ttf"; sourceTree = "<group>"; };
+		A5734E441DB776950020EE87 /* BEBAS___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BEBAS___.TTF"; path = "Added Font/BEBAS___.TTF"; sourceTree = "<group>"; };
+		A5734E451DB776950020EE87 /* built titling el.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "built titling el.ttf"; path = "Added Font/built titling el.ttf"; sourceTree = "<group>"; };
+		A5734E461DB776950020EE87 /* built titling sb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "built titling sb.ttf"; path = "Added Font/built titling sb.ttf"; sourceTree = "<group>"; };
+		A5734E471DB776950020EE87 /* BurgerJoint.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BurgerJoint.ttf; path = "Added Font/BurgerJoint.ttf"; sourceTree = "<group>"; };
+		A5734E481DB776950020EE87 /* FeaturedItem.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FeaturedItem.ttf; path = "Added Font/FeaturedItem.ttf"; sourceTree = "<group>"; };
+		A5734E491DB776950020EE87 /* Generica.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Generica.otf; path = "Added Font/Generica.otf"; sourceTree = "<group>"; };
+		A5734E4A1DB776950020EE87 /* NEOTERIC∏ - Regular DEMO VERSION.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NEOTERIC∏ - Regular DEMO VERSION.ttf"; path = "Added Font/NEOTERIC∏ - Regular DEMO VERSION.ttf"; sourceTree = "<group>"; };
+		A5734E4B1DB776950020EE87 /* Oswaldesque Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oswaldesque Bold.ttf"; path = "Added Font/Oswaldesque Bold.ttf"; sourceTree = "<group>"; };
+		A5734E4C1DB776950020EE87 /* Oswaldesque Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oswaldesque Light.ttf"; path = "Added Font/Oswaldesque Light.ttf"; sourceTree = "<group>"; };
+		A5734E4D1DB776950020EE87 /* Oswaldesque Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oswaldesque Regular.ttf"; path = "Added Font/Oswaldesque Regular.ttf"; sourceTree = "<group>"; };
+		A5734E4E1DB776950020EE87 /* TT Corals Thin-DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TT Corals Thin-DEMO.otf"; path = "Added Font/TT Corals Thin-DEMO.otf"; sourceTree = "<group>"; };
 		A5763B781D441EAA0077C6B8 /* navbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_bg.png; sourceTree = "<group>"; };
 		A5763B7D1D44311D0077C6B8 /* MealPlannerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealPlannerTableViewCell.h; sourceTree = "<group>"; };
 		A5763B7E1D44311D0077C6B8 /* MealPlannerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealPlannerTableViewCell.m; sourceTree = "<group>"; };
@@ -162,21 +177,6 @@
 		A5763B831D5F60190077C6B8 /* fade-tp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fade-tp.png"; sourceTree = "<group>"; };
 		A5763B851D5F61110077C6B8 /* fade-tp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fade-tp1.png"; sourceTree = "<group>"; };
 		A5A6C74F1D9C1C7800E8094C /* noMealsSegProgressView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noMealsSegProgressView.png; sourceTree = "<group>"; };
-		A5A6C7511D9C604A00E8094C /* FeaturedItem.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FeaturedItem.ttf; path = ../FeaturedItem.ttf; sourceTree = "<group>"; };
-		A5A6C7531D9D7F5400E8094C /* Aldrich-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aldrich-Regular.ttf"; path = "../Aldrich-Regular.ttf"; sourceTree = "<group>"; };
-		A5A6C7551D9D7F8A00E8094C /* BurgerJoint.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BurgerJoint.ttf; path = ../BurgerJoint.ttf; sourceTree = "<group>"; };
-		A5A6C7571D9D831A00E8094C /* built titling sb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "built titling sb.ttf"; path = "../built titling sb.ttf"; sourceTree = "<group>"; };
-		A5A6C7591D9D833900E8094C /* NEOTERIC∏ - Regular DEMO VERSION.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NEOTERIC∏ - Regular DEMO VERSION.ttf"; path = "../NEOTERIC∏ - Regular DEMO VERSION.ttf"; sourceTree = "<group>"; };
-		A5A6C75B1D9D835100E8094C /* BEBAS___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BEBAS___.TTF"; path = "../BEBAS___.TTF"; sourceTree = "<group>"; };
-		A5A6C75D1D9D836900E8094C /* built titling el.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "built titling el.ttf"; path = "../built titling el.ttf"; sourceTree = "<group>"; };
-		A5A6C75F1D9D889800E8094C /* Generica.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Generica.otf; path = ../Generica.otf; sourceTree = "<group>"; };
-		A5A6C7611D9D88B200E8094C /* TT Corals Thin-DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TT Corals Thin-DEMO.otf"; path = "../TT Corals Thin-DEMO.otf"; sourceTree = "<group>"; };
-		A5A6C7631D9D890300E8094C /* Oswaldesque Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oswaldesque Regular.ttf"; path = "../Oswaldesque Regular.ttf"; sourceTree = "<group>"; };
-		A5A6C7641D9D890300E8094C /* AlexandriaFLF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AlexandriaFLF.ttf; path = ../AlexandriaFLF.ttf; sourceTree = "<group>"; };
-		A5A6C7651D9D890300E8094C /* Aleo-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-Regular.otf"; path = "../Aleo-Regular.otf"; sourceTree = "<group>"; };
-		A5A6C7661D9D890300E8094C /* American Purpose.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "American Purpose.ttf"; path = "../American Purpose.ttf"; sourceTree = "<group>"; };
-		A5A6C76B1D9D8B2600E8094C /* Oswaldesque Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oswaldesque Bold.ttf"; path = "../Oswaldesque Bold.ttf"; sourceTree = "<group>"; };
-		A5A6C76C1D9D8B2600E8094C /* Oswaldesque Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oswaldesque Light.ttf"; path = "../Oswaldesque Light.ttf"; sourceTree = "<group>"; };
 		A5A6C8271DA2D27900E8094C /* MealImages+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MealImages+CoreDataProperties.h"; sourceTree = "<group>"; };
 		A5A6C8281DA2D27900E8094C /* MealImages+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MealImages+CoreDataProperties.m"; sourceTree = "<group>"; };
 		A5A6C8291DA2D27900E8094C /* MealImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealImages.h; sourceTree = "<group>"; };
@@ -406,6 +406,28 @@
 			name = "section 4 - cook now cell";
 			sourceTree = "<group>";
 		};
+		A5734E5E1DB7771C0020EE87 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A5734E401DB776950020EE87 /* Aldrich-Regular.ttf */,
+				A5734E411DB776950020EE87 /* Aleo-Regular.otf */,
+				A5734E421DB776950020EE87 /* AlexandriaFLF.ttf */,
+				A5734E431DB776950020EE87 /* American Purpose.ttf */,
+				A5734E441DB776950020EE87 /* BEBAS___.TTF */,
+				A5734E451DB776950020EE87 /* built titling el.ttf */,
+				A5734E461DB776950020EE87 /* built titling sb.ttf */,
+				A5734E471DB776950020EE87 /* BurgerJoint.ttf */,
+				A5734E481DB776950020EE87 /* FeaturedItem.ttf */,
+				A5734E491DB776950020EE87 /* Generica.otf */,
+				A5734E4A1DB776950020EE87 /* NEOTERIC∏ - Regular DEMO VERSION.ttf */,
+				A5734E4B1DB776950020EE87 /* Oswaldesque Bold.ttf */,
+				A5734E4C1DB776950020EE87 /* Oswaldesque Light.ttf */,
+				A5734E4D1DB776950020EE87 /* Oswaldesque Regular.ttf */,
+				A5734E4E1DB776950020EE87 /* TT Corals Thin-DEMO.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
 		A5A6C84E1DA2D37200E8094C /* Add Meal Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -482,21 +504,7 @@
 		A5A8407E1D05FFC40031F54A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5A6C76C1D9D8B2600E8094C /* Oswaldesque Light.ttf */,
-				A5A6C76B1D9D8B2600E8094C /* Oswaldesque Bold.ttf */,
-				A5A6C7631D9D890300E8094C /* Oswaldesque Regular.ttf */,
-				A5A6C7641D9D890300E8094C /* AlexandriaFLF.ttf */,
-				A5A6C7651D9D890300E8094C /* Aleo-Regular.otf */,
-				A5A6C7661D9D890300E8094C /* American Purpose.ttf */,
-				A5A6C7611D9D88B200E8094C /* TT Corals Thin-DEMO.otf */,
-				A5A6C75F1D9D889800E8094C /* Generica.otf */,
-				A5A6C75D1D9D836900E8094C /* built titling el.ttf */,
-				A5A6C75B1D9D835100E8094C /* BEBAS___.TTF */,
-				A5A6C7591D9D833900E8094C /* NEOTERIC∏ - Regular DEMO VERSION.ttf */,
-				A5A6C7571D9D831A00E8094C /* built titling sb.ttf */,
-				A5A6C7511D9C604A00E8094C /* FeaturedItem.ttf */,
-				A5A6C7551D9D7F8A00E8094C /* BurgerJoint.ttf */,
-				A5A6C7531D9D7F5400E8094C /* Aldrich-Regular.ttf */,
+				A5734E5E1DB7771C0020EE87 /* Font */,
 				A5DF405F1D96F0B10002D7D1 /* prepIcon.png */,
 				A5DF40551D96E1810002D7D1 /* mealListIcon.png */,
 				A5A6C74F1D9C1C7800E8094C /* noMealsSegProgressView.png */,
@@ -875,26 +883,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A6C76D1D9D8B2600E8094C /* Oswaldesque Bold.ttf in Resources */,
-				A5A6C76E1D9D8B2600E8094C /* Oswaldesque Light.ttf in Resources */,
-				A5A6C7671D9D890300E8094C /* Oswaldesque Regular.ttf in Resources */,
-				A5A6C7681D9D890300E8094C /* AlexandriaFLF.ttf in Resources */,
+				A5734E511DB776950020EE87 /* AlexandriaFLF.ttf in Resources */,
 				A5734E1E1DAF0E770020EE87 /* noMealsSegProgressViewnew.png in Resources */,
-				A5A6C7691D9D890300E8094C /* Aleo-Regular.otf in Resources */,
-				A5A6C76A1D9D890300E8094C /* American Purpose.ttf in Resources */,
-				A5A6C7621D9D88B200E8094C /* TT Corals Thin-DEMO.otf in Resources */,
-				A5A6C7601D9D889800E8094C /* Generica.otf in Resources */,
-				A5A6C75E1D9D836900E8094C /* built titling el.ttf in Resources */,
-				A5A6C75C1D9D835100E8094C /* BEBAS___.TTF in Resources */,
-				A5A6C75A1D9D833900E8094C /* NEOTERIC∏ - Regular DEMO VERSION.ttf in Resources */,
-				A5A6C7581D9D831A00E8094C /* built titling sb.ttf in Resources */,
-				A5A6C7561D9D7F8A00E8094C /* BurgerJoint.ttf in Resources */,
-				A5A6C7541D9D7F5400E8094C /* Aldrich-Regular.ttf in Resources */,
-				A5A6C7521D9C604B00E8094C /* FeaturedItem.ttf in Resources */,
+				A5734E591DB776950020EE87 /* NEOTERIC∏ - Regular DEMO VERSION.ttf in Resources */,
+				A5734E551DB776950020EE87 /* built titling sb.ttf in Resources */,
+				A5734E5C1DB776950020EE87 /* Oswaldesque Regular.ttf in Resources */,
+				A5734E5D1DB776950020EE87 /* TT Corals Thin-DEMO.otf in Resources */,
 				A5A8410D1D0733340031F54A /* col-meal-border.png in Resources */,
+				A5734E501DB776950020EE87 /* Aleo-Regular.otf in Resources */,
 				A5A842911D25A1B90031F54A /* Main-5s.storyboard in Resources */,
 				A5A842931D25A1B90031F54A /* Main-6s.storyboard in Resources */,
 				A5DF40501D9194850002D7D1 /* circlefade.png in Resources */,
+				A5734E581DB776950020EE87 /* Generica.otf in Resources */,
 				A5A842921D25A1B90031F54A /* Main-6s-Plus.storyboard in Resources */,
 				A5A841151D0733340031F54A /* cellimageblanks.png in Resources */,
 				A5A841091D0733340031F54A /* cameraIcon.png in Resources */,
@@ -903,12 +903,16 @@
 				A50251A91D7E07EC00176ADB /* dateCellDownArrow.png in Resources */,
 				A5DF404B1D8DF6CF0002D7D1 /* index.jpg in Resources */,
 				A5763B841D5F60190077C6B8 /* fade-tp.png in Resources */,
+				A5734E531DB776950020EE87 /* BEBAS___.TTF in Resources */,
 				A5A840911D05FFC40031F54A /* LaunchScreen.storyboard in Resources */,
+				A5734E4F1DB776950020EE87 /* Aldrich-Regular.ttf in Resources */,
+				A5734E571DB776950020EE87 /* FeaturedItem.ttf in Resources */,
 				A5A841131D0733340031F54A /* images1.png in Resources */,
 				A5A8427A1D2486140031F54A /* noimage1.png in Resources */,
 				A5A8429E1D2EDF1C0031F54A /* Default-568.png in Resources */,
 				A5A842901D25A1B90031F54A /* Main-4s.storyboard in Resources */,
 				A5DF40561D96E1810002D7D1 /* mealListIcon.png in Resources */,
+				A5734E541DB776950020EE87 /* built titling el.ttf in Resources */,
 				A5A841111D0733340031F54A /* image.png in Resources */,
 				A5A8408E1D05FFC40031F54A /* Assets.xcassets in Resources */,
 				A5A8410E1D0733340031F54A /* Screen Shot 2016-05-04 at 08.54.58.png in Resources */,
@@ -918,6 +922,8 @@
 				A5A842781D2484EE0031F54A /* noImage.png in Resources */,
 				A5A841081D0733340031F54A /* albumIcon in Resources */,
 				A5A842801D2492FE0031F54A /* catlabelimage.png in Resources */,
+				A5734E521DB776950020EE87 /* American Purpose.ttf in Resources */,
+				A5734E561DB776950020EE87 /* BurgerJoint.ttf in Resources */,
 				A5A842821D24C1BC0031F54A /* hb.png in Resources */,
 				A5763B861D5F61110077C6B8 /* fade-tp1.png in Resources */,
 				A5A8429F1D2EDF1C0031F54A /* Default-568@2x.png in Resources */,
@@ -926,7 +932,9 @@
 				A5A841121D0733340031F54A /* images.png in Resources */,
 				A5A8410C1D0733340031F54A /* col-meal-add2.png in Resources */,
 				A5A841141D0733340031F54A /* arrowchalk.png in Resources */,
+				A5734E5A1DB776950020EE87 /* Oswaldesque Bold.ttf in Resources */,
 				A5A6C7501D9C1C7800E8094C /* noMealsSegProgressView.png in Resources */,
+				A5734E5B1DB776950020EE87 /* Oswaldesque Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
