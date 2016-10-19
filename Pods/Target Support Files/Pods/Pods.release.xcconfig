@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FSCalendar" "${PODS_ROOT}/Headers/Public/Kiwi" "${PODS_ROOT}/Headers/Public/M13ProgressSuite" "${PODS_ROOT}/Headers/Public/UIImageViewModeScaleAspect" "${PODS_ROOT}/Headers/Public/VBPieChart"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FSCalendar" -isystem "${PODS_ROOT}/Headers/Public/Kiwi" -isystem "${PODS_ROOT}/Headers/Public/M13ProgressSuite" -isystem "${PODS_ROOT}/Headers/Public/UIImageViewModeScaleAspect" -isystem "${PODS_ROOT}/Headers/Public/VBPieChart"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FSCalendar" -l"M13ProgressSuite" -l"UIImageViewModeScaleAspect" -l"VBPieChart" -framework "Accelerate" -framework "CoreGraphics" -framework "CoreImage" -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Categories" representedClassName="Categories" syncable="YES">
+        <attribute name="catName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="meal" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Meals" inverseName="mealCategory" inverseEntity="Meals" syncable="YES"/>
+    </entity>
+    <entity name="MealImages" representedClassName="MealImages" syncable="YES">
+        <attribute name="dateAdded" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="defaultImage" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mealCaption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealImage" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="mealThumbnailImage" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="meal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meals" inverseName="mealImage" inverseEntity="Meals" syncable="YES"/>
+    </entity>
+    <entity name="MealPrep" representedClassName="MealPrep" syncable="YES">
+        <attribute name="cookedQuantity" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="datePrepped" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="datePreppedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateToBeEaten" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateToBeEatenDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateToBeEatenHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="daysGoodInFridge" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="daysToBeEaten" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="eaten" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="neededQuantity" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberInFreezer" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberInFridge" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="storeStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thrown" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="meal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meals" inverseName="mealPrepped" inverseEntity="Meals" syncable="YES"/>
+    </entity>
+    <entity name="Meals" representedClassName="Meals" syncable="YES">
+        <attribute name="archived" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="freezerStorageDays" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="fridgeStorageDays" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageArray" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="macro" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="macroStats" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="mealDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mealName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipeAmount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timePrep" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="truckPhoto" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="mealCategory" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Categories" inverseName="meal" inverseEntity="Categories" syncable="YES"/>
+        <relationship name="mealImage" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MealImages" inverseName="meal" inverseEntity="MealImages" syncable="YES"/>
+        <relationship name="mealPrepped" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MealPrep" inverseName="meal" inverseEntity="MealPrep" syncable="YES"/>
+        <relationship name="mealRecipes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Recipes" inverseName="forMeal" inverseEntity="Recipes" syncable="YES"/>
+        <relationship name="mealSteps" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Steps" inverseName="stepsForMeal" inverseEntity="Steps" syncable="YES"/>
+    </entity>
+    <entity name="Recipes" representedClassName="Recipes" syncable="YES">
+        <attribute name="availablity" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="recipeName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="forMeal" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Meals" inverseName="mealRecipes" inverseEntity="Meals" syncable="YES"/>
+    </entity>
+    <entity name="Steps" representedClassName="Steps" syncable="YES">
+        <attribute name="dateAdded" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="step" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stepImage" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="stepsForMeal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meals" inverseName="mealSteps" inverseEntity="Meals" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Categories" positionX="160" positionY="-0" width="128" height="73"/>
+        <element name="MealImages" positionX="-236" positionY="-9" width="128" height="135"/>
+        <element name="MealPrep" positionX="160" positionY="92" width="128" height="285"/>
+        <element name="Meals" positionX="-36" positionY="0" width="128" height="298"/>
+        <element name="Recipes" positionX="-236" positionY="146" width="128" height="88"/>
+        <element name="Steps" positionX="-236" positionY="252" width="128" height="120"/>
+    </elements>
+</model>

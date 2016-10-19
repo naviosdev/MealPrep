@@ -1,0 +1,22 @@
+PODS:
+  - FSCalendar (2.2.0)
+  - Kiwi (2.4.0)
+  - M13ProgressSuite (1.2.8)
+  - UIImageViewModeScaleAspect (1.5)
+  - VBPieChart (1.2.0)
+
+DEPENDENCIES:
+  - FSCalendar
+  - Kiwi
+  - M13ProgressSuite
+  - UIImageViewModeScaleAspect
+  - VBPieChart
+
+SPEC CHECKSUMS:
+  FSCalendar: 766367b91bcf2829c492c5ac50a58652c6df4ee8
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  M13ProgressSuite: c357c8c163a59a7405e5a9ad7e9c63a19e5e5d20
+  UIImageViewModeScaleAspect: 11a790a0b9d248a13dc63e3a78991f1463b6d84e
+  VBPieChart: 7d46553bcb9de13afee366acb84d3afcda536929
+
+COCOAPODS: 0.39.0
