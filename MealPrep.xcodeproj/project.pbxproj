@@ -31,14 +31,14 @@
 		A5734E5B1DB776950020EE87 /* Oswaldesque Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E4C1DB776950020EE87 /* Oswaldesque Light.ttf */; };
 		A5734E5C1DB776950020EE87 /* Oswaldesque Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E4D1DB776950020EE87 /* Oswaldesque Regular.ttf */; };
 		A5734E5D1DB776950020EE87 /* TT Corals Thin-DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5734E4E1DB776950020EE87 /* TT Corals Thin-DEMO.otf */; };
+		A5734E641DB77B790020EE87 /* MealImages.m in Sources */ = {isa = PBXBuildFile; fileRef = A5734E611DB77B790020EE87 /* MealImages.m */; };
+		A5734E651DB77B790020EE87 /* MealImages+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A5734E631DB77B790020EE87 /* MealImages+CoreDataProperties.m */; };
 		A5763B791D441EAA0077C6B8 /* navbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A5763B781D441EAA0077C6B8 /* navbar_bg.png */; };
 		A5763B7F1D44311D0077C6B8 /* MealPlannerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5763B7E1D44311D0077C6B8 /* MealPlannerTableViewCell.m */; };
 		A5763B821D4FB0AF0077C6B8 /* mealCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5763B811D4FB0AF0077C6B8 /* mealCollectionViewCell.m */; };
 		A5763B841D5F60190077C6B8 /* fade-tp.png in Resources */ = {isa = PBXBuildFile; fileRef = A5763B831D5F60190077C6B8 /* fade-tp.png */; };
 		A5763B861D5F61110077C6B8 /* fade-tp1.png in Resources */ = {isa = PBXBuildFile; fileRef = A5763B851D5F61110077C6B8 /* fade-tp1.png */; };
 		A5A6C7501D9C1C7800E8094C /* noMealsSegProgressView.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A6C74F1D9C1C7800E8094C /* noMealsSegProgressView.png */; };
-		A5A6C83F1DA2D27900E8094C /* MealImages+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A6C8281DA2D27900E8094C /* MealImages+CoreDataProperties.m */; };
-		A5A6C8401DA2D27900E8094C /* MealImages.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A6C82A1DA2D27900E8094C /* MealImages.m */; };
 		A5A6C8411DA2D27900E8094C /* MealPrep+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A6C82C1DA2D27900E8094C /* MealPrep+CoreDataProperties.m */; };
 		A5A6C8421DA2D27900E8094C /* MealPrep.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A6C82E1DA2D27900E8094C /* MealPrep.m */; };
 		A5A6C8431DA2D27900E8094C /* Meals+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A6C8301DA2D27900E8094C /* Meals+CoreDataProperties.m */; };
@@ -152,8 +152,8 @@
 		A50251A01D7DE1F100176ADB /* cookNowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cookNowTableViewCell.m; sourceTree = "<group>"; };
 		A50251A31D7DE70800176ADB /* prepDateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prepDateTableViewCell.h; sourceTree = "<group>"; };
 		A50251A41D7DE70800176ADB /* prepDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = prepDateTableViewCell.m; sourceTree = "<group>"; };
-		A50251A81D7E07EC00176ADB /* dateCellDownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dateCellDownArrow.png; sourceTree = "<group>"; };
-		A5734E1D1DAF0E770020EE87 /* noMealsSegProgressViewnew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noMealsSegProgressViewnew.png; sourceTree = "<group>"; };
+		A50251A81D7E07EC00176ADB /* dateCellDownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dateCellDownArrow.png; path = Images/dateCellDownArrow.png; sourceTree = "<group>"; };
+		A5734E1D1DAF0E770020EE87 /* noMealsSegProgressViewnew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noMealsSegProgressViewnew.png; path = Images/noMealsSegProgressViewnew.png; sourceTree = "<group>"; };
 		A5734E401DB776950020EE87 /* Aldrich-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aldrich-Regular.ttf"; path = "Added Font/Aldrich-Regular.ttf"; sourceTree = "<group>"; };
 		A5734E411DB776950020EE87 /* Aleo-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-Regular.otf"; path = "Added Font/Aleo-Regular.otf"; sourceTree = "<group>"; };
 		A5734E421DB776950020EE87 /* AlexandriaFLF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AlexandriaFLF.ttf; path = "Added Font/AlexandriaFLF.ttf"; sourceTree = "<group>"; };
@@ -169,38 +169,38 @@
 		A5734E4C1DB776950020EE87 /* Oswaldesque Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oswaldesque Light.ttf"; path = "Added Font/Oswaldesque Light.ttf"; sourceTree = "<group>"; };
 		A5734E4D1DB776950020EE87 /* Oswaldesque Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oswaldesque Regular.ttf"; path = "Added Font/Oswaldesque Regular.ttf"; sourceTree = "<group>"; };
 		A5734E4E1DB776950020EE87 /* TT Corals Thin-DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TT Corals Thin-DEMO.otf"; path = "Added Font/TT Corals Thin-DEMO.otf"; sourceTree = "<group>"; };
-		A5763B781D441EAA0077C6B8 /* navbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_bg.png; sourceTree = "<group>"; };
+		A5734E5F1DB77B620020EE87 /* MealPrep+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MealPrep+CoreDataProperties.h"; path = "Core Data/MealPrep+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A5734E601DB77B790020EE87 /* MealImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MealImages.h; path = "Core Data/MealImages.h"; sourceTree = "<group>"; };
+		A5734E611DB77B790020EE87 /* MealImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MealImages.m; path = "Core Data/MealImages.m"; sourceTree = "<group>"; };
+		A5734E621DB77B790020EE87 /* MealImages+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MealImages+CoreDataProperties.h"; path = "Core Data/MealImages+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A5734E631DB77B790020EE87 /* MealImages+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MealImages+CoreDataProperties.m"; path = "Core Data/MealImages+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A5763B781D441EAA0077C6B8 /* navbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navbar_bg.png; path = Images/navbar_bg.png; sourceTree = "<group>"; };
 		A5763B7D1D44311D0077C6B8 /* MealPlannerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealPlannerTableViewCell.h; sourceTree = "<group>"; };
 		A5763B7E1D44311D0077C6B8 /* MealPlannerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealPlannerTableViewCell.m; sourceTree = "<group>"; };
 		A5763B801D4FB0AF0077C6B8 /* mealCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mealCollectionViewCell.h; sourceTree = "<group>"; };
 		A5763B811D4FB0AF0077C6B8 /* mealCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mealCollectionViewCell.m; sourceTree = "<group>"; };
-		A5763B831D5F60190077C6B8 /* fade-tp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fade-tp.png"; sourceTree = "<group>"; };
-		A5763B851D5F61110077C6B8 /* fade-tp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fade-tp1.png"; sourceTree = "<group>"; };
-		A5A6C74F1D9C1C7800E8094C /* noMealsSegProgressView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noMealsSegProgressView.png; sourceTree = "<group>"; };
-		A5A6C8271DA2D27900E8094C /* MealImages+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MealImages+CoreDataProperties.h"; sourceTree = "<group>"; };
-		A5A6C8281DA2D27900E8094C /* MealImages+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MealImages+CoreDataProperties.m"; sourceTree = "<group>"; };
-		A5A6C8291DA2D27900E8094C /* MealImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealImages.h; sourceTree = "<group>"; };
-		A5A6C82A1DA2D27900E8094C /* MealImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealImages.m; sourceTree = "<group>"; };
-		A5A6C82B1DA2D27900E8094C /* MealPrep+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MealPrep+CoreDataProperties.h"; sourceTree = "<group>"; };
-		A5A6C82C1DA2D27900E8094C /* MealPrep+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MealPrep+CoreDataProperties.m"; sourceTree = "<group>"; };
-		A5A6C82D1DA2D27900E8094C /* MealPrep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealPrep.h; sourceTree = "<group>"; };
-		A5A6C82E1DA2D27900E8094C /* MealPrep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealPrep.m; sourceTree = "<group>"; };
-		A5A6C82F1DA2D27900E8094C /* Meals+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Meals+CoreDataProperties.h"; sourceTree = "<group>"; };
-		A5A6C8301DA2D27900E8094C /* Meals+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Meals+CoreDataProperties.m"; sourceTree = "<group>"; };
-		A5A6C8311DA2D27900E8094C /* Meals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meals.h; sourceTree = "<group>"; };
-		A5A6C8321DA2D27900E8094C /* Meals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meals.m; sourceTree = "<group>"; };
-		A5A6C8331DA2D27900E8094C /* Steps+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Steps+CoreDataProperties.h"; sourceTree = "<group>"; };
-		A5A6C8341DA2D27900E8094C /* Steps+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Steps+CoreDataProperties.m"; sourceTree = "<group>"; };
-		A5A6C8351DA2D27900E8094C /* Steps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Steps.h; sourceTree = "<group>"; };
-		A5A6C8361DA2D27900E8094C /* Steps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Steps.m; sourceTree = "<group>"; };
-		A5A6C8371DA2D27900E8094C /* Recipes+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Recipes+CoreDataProperties.h"; sourceTree = "<group>"; };
-		A5A6C8381DA2D27900E8094C /* Recipes+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Recipes+CoreDataProperties.m"; sourceTree = "<group>"; };
-		A5A6C8391DA2D27900E8094C /* Recipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipes.h; sourceTree = "<group>"; };
-		A5A6C83A1DA2D27900E8094C /* Recipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipes.m; sourceTree = "<group>"; };
-		A5A6C83B1DA2D27900E8094C /* Categories+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Categories+CoreDataProperties.h"; sourceTree = "<group>"; };
-		A5A6C83C1DA2D27900E8094C /* Categories+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Categories+CoreDataProperties.m"; sourceTree = "<group>"; };
-		A5A6C83D1DA2D27900E8094C /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
-		A5A6C83E1DA2D27900E8094C /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categories.m; sourceTree = "<group>"; };
+		A5763B831D5F60190077C6B8 /* fade-tp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fade-tp.png"; path = "Images/fade-tp.png"; sourceTree = "<group>"; };
+		A5763B851D5F61110077C6B8 /* fade-tp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fade-tp1.png"; path = "Images/fade-tp1.png"; sourceTree = "<group>"; };
+		A5A6C74F1D9C1C7800E8094C /* noMealsSegProgressView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noMealsSegProgressView.png; path = Images/noMealsSegProgressView.png; sourceTree = "<group>"; };
+		A5A6C82C1DA2D27900E8094C /* MealPrep+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MealPrep+CoreDataProperties.m"; path = "Core Data/MealPrep+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A5A6C82D1DA2D27900E8094C /* MealPrep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MealPrep.h; path = "Core Data/MealPrep.h"; sourceTree = "<group>"; };
+		A5A6C82E1DA2D27900E8094C /* MealPrep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MealPrep.m; path = "Core Data/MealPrep.m"; sourceTree = "<group>"; };
+		A5A6C82F1DA2D27900E8094C /* Meals+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Meals+CoreDataProperties.h"; path = "Core Data/Meals+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A5A6C8301DA2D27900E8094C /* Meals+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Meals+CoreDataProperties.m"; path = "Core Data/Meals+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A5A6C8311DA2D27900E8094C /* Meals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Meals.h; path = "Core Data/Meals.h"; sourceTree = "<group>"; };
+		A5A6C8321DA2D27900E8094C /* Meals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Meals.m; path = "Core Data/Meals.m"; sourceTree = "<group>"; };
+		A5A6C8331DA2D27900E8094C /* Steps+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Steps+CoreDataProperties.h"; path = "Core Data/Steps+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A5A6C8341DA2D27900E8094C /* Steps+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Steps+CoreDataProperties.m"; path = "Core Data/Steps+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A5A6C8351DA2D27900E8094C /* Steps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Steps.h; path = "Core Data/Steps.h"; sourceTree = "<group>"; };
+		A5A6C8361DA2D27900E8094C /* Steps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Steps.m; path = "Core Data/Steps.m"; sourceTree = "<group>"; };
+		A5A6C8371DA2D27900E8094C /* Recipes+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Recipes+CoreDataProperties.h"; path = "Core Data/Recipes+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A5A6C8381DA2D27900E8094C /* Recipes+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Recipes+CoreDataProperties.m"; path = "Core Data/Recipes+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A5A6C8391DA2D27900E8094C /* Recipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recipes.h; path = "Core Data/Recipes.h"; sourceTree = "<group>"; };
+		A5A6C83A1DA2D27900E8094C /* Recipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Recipes.m; path = "Core Data/Recipes.m"; sourceTree = "<group>"; };
+		A5A6C83B1DA2D27900E8094C /* Categories+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Categories+CoreDataProperties.h"; path = "Core Data/Categories+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A5A6C83C1DA2D27900E8094C /* Categories+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Categories+CoreDataProperties.m"; path = "Core Data/Categories+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A5A6C83D1DA2D27900E8094C /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Categories.h; path = "Core Data/Categories.h"; sourceTree = "<group>"; };
+		A5A6C83E1DA2D27900E8094C /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Categories.m; path = "Core Data/Categories.m"; sourceTree = "<group>"; };
 		A5A6C84B1DA2D36A00E8094C /* StorageAddMealTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageAddMealTableViewCell.h; sourceTree = "<group>"; };
 		A5A6C84C1DA2D36A00E8094C /* StorageAddMealTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageAddMealTableViewCell.m; sourceTree = "<group>"; };
 		A5A6C84F1DA2DA8800E8094C /* storageDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = storageDetailTableViewCell.h; sourceTree = "<group>"; };
@@ -233,19 +233,19 @@
 		A5A840E61D072F540031F54A /* newMealListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newMealListViewController.h; sourceTree = "<group>"; };
 		A5A840E71D072F540031F54A /* newMealListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newMealListViewController.m; sourceTree = "<group>"; };
 		A5A840F71D0733340031F54A /* albumIcon */ = {isa = PBXFileReference; lastKnownFileType = file; path = albumIcon; sourceTree = "<group>"; };
-		A5A840F81D0733340031F54A /* cameraIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraIcon.png; sourceTree = "<group>"; };
-		A5A840FA1D0733340031F54A /* col-meal-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "col-meal-add.png"; sourceTree = "<group>"; };
-		A5A840FB1D0733340031F54A /* col-meal-add2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "col-meal-add2.png"; sourceTree = "<group>"; };
-		A5A840FC1D0733340031F54A /* col-meal-border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "col-meal-border.png"; sourceTree = "<group>"; };
-		A5A840FD1D0733340031F54A /* Screen Shot 2016-05-04 at 08.54.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-05-04 at 08.54.58.png"; sourceTree = "<group>"; };
-		A5A841001D0733340031F54A /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
-		A5A841011D0733340031F54A /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
-		A5A841021D0733340031F54A /* images1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images1.png; sourceTree = "<group>"; };
-		A5A841031D0733340031F54A /* arrowchalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowchalk.png; sourceTree = "<group>"; };
-		A5A841041D0733340031F54A /* cellimageblanks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellimageblanks.png; sourceTree = "<group>"; };
-		A5A841051D0733340031F54A /* cellbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellbar.png; sourceTree = "<group>"; };
-		A5A841191D09C0980031F54A /* mealDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mealDetailViewController.h; path = ../mealDetailViewController.h; sourceTree = "<group>"; };
-		A5A8411A1D09C0980031F54A /* mealDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mealDetailViewController.m; path = ../mealDetailViewController.m; sourceTree = "<group>"; };
+		A5A840F81D0733340031F54A /* cameraIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cameraIcon.png; path = Images/cameraIcon.png; sourceTree = "<group>"; };
+		A5A840FA1D0733340031F54A /* col-meal-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "col-meal-add.png"; path = "Images/col-meal-add.png"; sourceTree = "<group>"; };
+		A5A840FB1D0733340031F54A /* col-meal-add2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "col-meal-add2.png"; path = "Images/col-meal-add2.png"; sourceTree = "<group>"; };
+		A5A840FC1D0733340031F54A /* col-meal-border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "col-meal-border.png"; path = "Images/col-meal-border.png"; sourceTree = "<group>"; };
+		A5A840FD1D0733340031F54A /* Screen Shot 2016-05-04 at 08.54.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-05-04 at 08.54.58.png"; path = "Images/Screen Shot 2016-05-04 at 08.54.58.png"; sourceTree = "<group>"; };
+		A5A841001D0733340031F54A /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = Images/image.png; sourceTree = "<group>"; };
+		A5A841011D0733340031F54A /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = Images/images.png; sourceTree = "<group>"; };
+		A5A841021D0733340031F54A /* images1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images1.png; path = Images/images1.png; sourceTree = "<group>"; };
+		A5A841031D0733340031F54A /* arrowchalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowchalk.png; path = Images/arrowchalk.png; sourceTree = "<group>"; };
+		A5A841041D0733340031F54A /* cellimageblanks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cellimageblanks.png; path = Images/cellimageblanks.png; sourceTree = "<group>"; };
+		A5A841051D0733340031F54A /* cellbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cellbar.png; path = Images/cellbar.png; sourceTree = "<group>"; };
+		A5A841191D09C0980031F54A /* mealDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mealDetailViewController.h; sourceTree = "<group>"; };
+		A5A8411A1D09C0980031F54A /* mealDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mealDetailViewController.m; sourceTree = "<group>"; };
 		A5A841201D0CC6160031F54A /* mealDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mealDetailTableViewCell.h; sourceTree = "<group>"; };
 		A5A841211D0CC6160031F54A /* mealDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mealDetailTableViewCell.m; sourceTree = "<group>"; };
 		A5A841241D10C19E0031F54A /* imageSelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageSelectTableViewCell.h; sourceTree = "<group>"; };
@@ -267,19 +267,19 @@
 		A5A8417E1D2191070031F54A /* categoryDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = categoryDetailTableViewCell.m; sourceTree = "<group>"; };
 		A5A841811D21E47A0031F54A /* catCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = catCellCollectionViewCell.h; sourceTree = "<group>"; };
 		A5A841821D21E47A0031F54A /* catCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = catCellCollectionViewCell.m; sourceTree = "<group>"; };
-		A5A842771D2484EE0031F54A /* noImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noImage.png; sourceTree = "<group>"; };
-		A5A842791D2486140031F54A /* noimage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage1.png; sourceTree = "<group>"; };
-		A5A8427F1D2492FE0031F54A /* catlabelimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catlabelimage.png; sourceTree = "<group>"; };
-		A5A842811D24C1BC0031F54A /* hb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hb.png; sourceTree = "<group>"; };
+		A5A842771D2484EE0031F54A /* noImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noImage.png; path = Images/noImage.png; sourceTree = "<group>"; };
+		A5A842791D2486140031F54A /* noimage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noimage1.png; path = Images/noimage1.png; sourceTree = "<group>"; };
+		A5A8427F1D2492FE0031F54A /* catlabelimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catlabelimage.png; path = Images/catlabelimage.png; sourceTree = "<group>"; };
+		A5A842811D24C1BC0031F54A /* hb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hb.png; path = Images/hb.png; sourceTree = "<group>"; };
 		A5A842831D25235C0031F54A /* DemoMeals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMeals.h; sourceTree = "<group>"; };
 		A5A842841D25235C0031F54A /* DemoMeals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMeals.m; sourceTree = "<group>"; };
-		A5A842861D2583A20031F54A /* chickensweetpotato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chickensweetpotato.png; sourceTree = "<group>"; };
+		A5A842861D2583A20031F54A /* chickensweetpotato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chickensweetpotato.png; path = Images/chickensweetpotato.png; sourceTree = "<group>"; };
 		A5A842891D25A1B90031F54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-4s.storyboard"; sourceTree = "<group>"; };
 		A5A8428B1D25A1B90031F54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-5s.storyboard"; sourceTree = "<group>"; };
 		A5A8428D1D25A1B90031F54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-6s-Plus.storyboard"; sourceTree = "<group>"; };
 		A5A8428F1D25A1B90031F54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-6s.storyboard"; sourceTree = "<group>"; };
-		A5A8429C1D2EDF1C0031F54A /* Default-568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568.png"; sourceTree = "<group>"; };
-		A5A8429D1D2EDF1C0031F54A /* Default-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568@2x.png"; sourceTree = "<group>"; };
+		A5A8429C1D2EDF1C0031F54A /* Default-568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568.png"; path = "Images/Default-568.png"; sourceTree = "<group>"; };
+		A5A8429D1D2EDF1C0031F54A /* Default-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568@2x.png"; path = "Images/Default-568@2x.png"; sourceTree = "<group>"; };
 		A5A843761D43C4AB0031F54A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		A5A843771D43C4AB0031F54A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		A5A8437A1D43C66D0031F54A /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
@@ -299,13 +299,13 @@
 		A5DF3FDE1D8B3AF30002D7D1 /* surplusPlanDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = surplusPlanDateTableViewCell.m; sourceTree = "<group>"; };
 		A5DF40471D8DEE5D0002D7D1 /* homeViewSurplusPrepsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeViewSurplusPrepsTableViewCell.h; sourceTree = "<group>"; };
 		A5DF40481D8DEE5D0002D7D1 /* homeViewSurplusPrepsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewSurplusPrepsTableViewCell.m; sourceTree = "<group>"; };
-		A5DF404A1D8DF6CF0002D7D1 /* index.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = index.jpg; sourceTree = "<group>"; };
+		A5DF404A1D8DF6CF0002D7D1 /* index.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = index.jpg; path = Images/index.jpg; sourceTree = "<group>"; };
 		A5DF404C1D8F0FFD0002D7D1 /* noSurplusMealsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noSurplusMealsTableViewCell.h; sourceTree = "<group>"; };
 		A5DF404D1D8F0FFD0002D7D1 /* noSurplusMealsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = noSurplusMealsTableViewCell.m; sourceTree = "<group>"; };
-		A5DF404F1D9194850002D7D1 /* circlefade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circlefade.png; sourceTree = "<group>"; };
-		A5DF40511D9195430002D7D1 /* homeview1bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeview1bg.png; sourceTree = "<group>"; };
-		A5DF40551D96E1810002D7D1 /* mealListIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mealListIcon.png; sourceTree = "<group>"; };
-		A5DF405F1D96F0B10002D7D1 /* prepIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prepIcon.png; sourceTree = "<group>"; };
+		A5DF404F1D9194850002D7D1 /* circlefade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circlefade.png; path = Images/circlefade.png; sourceTree = "<group>"; };
+		A5DF40511D9195430002D7D1 /* homeview1bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homeview1bg.png; path = Images/homeview1bg.png; sourceTree = "<group>"; };
+		A5DF40551D96E1810002D7D1 /* mealListIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mealListIcon.png; path = Images/mealListIcon.png; sourceTree = "<group>"; };
+		A5DF405F1D96F0B10002D7D1 /* prepIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prepIcon.png; path = Images/prepIcon.png; sourceTree = "<group>"; };
 		C85E819B1EA6112D9946AF33 /* Pods-MealPrepTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealPrepTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealPrepTests/Pods-MealPrepTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5154C2D9DFBB7F9F44D7FAA /* Pods-MealPrepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealPrepTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MealPrepTests/Pods-MealPrepTests.release.xcconfig"; sourceTree = "<group>"; };
 		EABB3FC01B20F978BF81B213 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -562,11 +562,11 @@
 		A5A840B41D05FFDF0031F54A /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				A5A6C8271DA2D27900E8094C /* MealImages+CoreDataProperties.h */,
-				A5A6C8281DA2D27900E8094C /* MealImages+CoreDataProperties.m */,
-				A5A6C8291DA2D27900E8094C /* MealImages.h */,
-				A5A6C82A1DA2D27900E8094C /* MealImages.m */,
-				A5A6C82B1DA2D27900E8094C /* MealPrep+CoreDataProperties.h */,
+				A5734E601DB77B790020EE87 /* MealImages.h */,
+				A5734E611DB77B790020EE87 /* MealImages.m */,
+				A5734E621DB77B790020EE87 /* MealImages+CoreDataProperties.h */,
+				A5734E631DB77B790020EE87 /* MealImages+CoreDataProperties.m */,
+				A5734E5F1DB77B620020EE87 /* MealPrep+CoreDataProperties.h */,
 				A5A6C82C1DA2D27900E8094C /* MealPrep+CoreDataProperties.m */,
 				A5A6C82D1DA2D27900E8094C /* MealPrep.h */,
 				A5A6C82E1DA2D27900E8094C /* MealPrep.m */,
@@ -1060,16 +1060,15 @@
 				A5A841831D21E47A0031F54A /* catCellCollectionViewCell.m in Sources */,
 				A50251A51D7DE70800176ADB /* prepDateTableViewCell.m in Sources */,
 				A5DF404E1D8F0FFD0002D7D1 /* noSurplusMealsTableViewCell.m in Sources */,
+				A5734E641DB77B790020EE87 /* MealImages.m in Sources */,
 				A50251931D7DCB1C00176ADB /* newPrepViewController.m in Sources */,
 				A5DF3FD41D88ACDF0002D7D1 /* changeDateTableViewCell.m in Sources */,
 				A5A6C8511DA2DA8800E8094C /* storageDetailTableViewCell.m in Sources */,
 				A5A841261D10C19E0031F54A /* imageSelectTableViewCell.m in Sources */,
-				A5A6C83F1DA2D27900E8094C /* MealImages+CoreDataProperties.m in Sources */,
 				A5763B7F1D44311D0077C6B8 /* MealPlannerTableViewCell.m in Sources */,
 				A5A6C84A1DA2D27900E8094C /* Categories.m in Sources */,
 				A5A6C8421DA2D27900E8094C /* MealPrep.m in Sources */,
 				A5A6C8431DA2D27900E8094C /* Meals+CoreDataProperties.m in Sources */,
-				A5A6C8401DA2D27900E8094C /* MealImages.m in Sources */,
 				A5A6C8441DA2D27900E8094C /* Meals.m in Sources */,
 				A5DF3FD71D89AF2F0002D7D1 /* stepsTableViewCell.m in Sources */,
 				A5A840F01D072F540031F54A /* newMealListViewController.m in Sources */,
@@ -1093,6 +1092,7 @@
 				A50251971D7DD3B200176ADB /* mealPrepInfoTableViewCell.m in Sources */,
 				A5763B821D4FB0AF0077C6B8 /* mealCollectionViewCell.m in Sources */,
 				A5A840EE1D072F540031F54A /* newAddMealViewController.m in Sources */,
+				A5734E651DB77B790020EE87 /* MealImages+CoreDataProperties.m in Sources */,
 				A5A841561D1FB15F0031F54A /* stepsDetailTableViewCell.m in Sources */,
 				A5A6C8471DA2D27900E8094C /* Recipes+CoreDataProperties.m in Sources */,
 				A5A840831D05FFC40031F54A /* AppDelegate.m in Sources */,
